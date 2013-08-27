@@ -1,4 +1,5 @@
 #count files in a directory, similar to 'ls -a -1 | wc -l' without the . and ..
+#asks for input from user
 print qq{ enter directory to count files in ->  };
 my $dir=<STDIN>;
 chomp ($dir);
