@@ -1,4 +1,5 @@
 # Use the backticks operator to read the output of ls –l command then report which users and groups it finds. 
+# useful to find just list of users and groups
 print qq{Enter dir to find users and groups for -> };
 my $dir=<STDIN>;
 chomp $dir;
